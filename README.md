@@ -15,7 +15,7 @@ Se XP for maior ou igual a 10.001 = Radiante<br>
 
 Formato de Saída: "O Herói de nome **{nome}** está no nível de **{nivel}**"
 ### Explicação
-```json
+```js
 class Heroi {
     constructor(nome, experiencia, nivel) {
         this.nome=nome;
