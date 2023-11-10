@@ -1,5 +1,6 @@
 # Desafios de Projeto - Potência Tech iFood - Programação do Zero
 Nesse repositório estão as soluções dos desafios e projetos que fiz durante o bootcamp "Potencia Tech iFood - Programação do Zero" oferecido pela plataforma de ensino [DIO.me](https://www.dio.me).
+
 ### Instrução
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:<br>
 Se XP for menor do que 1.000 = Ferro<br>
@@ -13,7 +14,7 @@ Se XP for maior ou igual a 10.001 = Radiante<br>
 
 Formato de Saída: "O Herói de nome **{nome}** está no nível de **{nivel}**"
 ### Explicação
-Primeiramente defini uma classe que encapsula-se dois atributos nome e experiência, com o intuito de 
+1. Defini uma classe que encapsula-se dois atributos nome e experiência.
 ```js
 class Heroi {
     constructor(nome, experiencia, nivel) {
