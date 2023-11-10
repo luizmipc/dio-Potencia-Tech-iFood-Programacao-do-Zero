@@ -23,3 +23,8 @@ class Heroi {
     }
 }
 ```
+2. Define dois vetores que armazenassem, respectivamente, os limites dos intervalos de experiência entre cada nível e as strings dos níveis.
+```js
+const niveisValor = [10000, 9000, 8000, 7000, 6000, 5000, 2000, 1000];
+const niveisTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ouro-prata", "Prata", "Bronze", "Ferro"];
+```
