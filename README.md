@@ -14,7 +14,7 @@ Se XP for maior ou igual a 10.001 = Radiante<br>
 
 Formato de Saída: "O Herói de nome **{nome}** está no nível de **{nivel}**"
 ### Explicação
-1. Defini uma classe que encapsula-se dois atributos nome e experiência.
+1. Defini uma classe que encapsula-se dois estados do herói nome e experiência.
 ```js
 class Heroi {
     constructor(nome, experiencia, nivel) {
@@ -23,31 +23,21 @@ class Heroi {
     }
 }
 ```
-2. Define dois vetores que armazenassem, respectivamente, os limites dos intervalos de experiência entre cada nível e as strings dos níveis.
+2. Declarei a inicializei dois vetores que armazenassem, respectivamente, os limites dos intervalos de experiência entre cada nível e os nomes dos níveis.
 ```js
 const niveisValor = [10000, 9000, 8000, 7000, 6000, 5000, 2000, 1000];
 const niveisTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ouro-prata", "Prata", "Bronze", "Ferro"];
 ```
-3. Defini uma objeto herói com nome e experiência específicos para demonstrar o funcionamento do código.
+3. Declarei e inicializei uma instância da classe 'Heroi' com o nome 'Luiz Marcelo' e experiência 10001.
 ```js
 let heroi = new Heroi("Luiz Marcelo", 10001);
 ```
-4. Criei uma estrutura de decisão para definir o nível do herói em Ferro ou outros, pois a configuração da condição do laço de iteração _for_ não abranja a classificação Ferro. 
+4. Utilizei um laço de iteração for para determinar o nível do herói com base nas condições definidas. Dentro desse laço, uma estrutura _if_ verifica em qual intervalo de experiência o herói se encaixa e print o nível correspondente. Este método permite uma verificação abrangente e eficiente do nível do herói. Dessa forma, evita-se uma estrutura de decisão _if-else if_ ou ou _switch case_. 
 ```js
 if (heroi.experiencia <= niveisValor[7]) {
     console.log(`O herói de nome ${heroi.nome} está no nível de ${niveisTexto[8]}.`);
 }
 else {
-    for (let i = 0; i < 8; ++i) {
-        if (niveisValor[i] < heroi.experiencia) {
-            console.log(`O herói de nome ${heroi.nome} está no nível de ${niveisTexto[i]}.`);
-            break;
-        }
-    }
-}
-```
-5. Criei um laço de iteração _for_ para apresentar qualquer nível de herói dependendo da condição _if_ que está aninhada.
-```js
     for (let i = 0; i < 8; ++i) {
         if (niveisValor[i] < heroi.experiencia) {
             console.log(`O herói de nome ${heroi.nome} está no nível de ${niveisTexto[i]}.`);
