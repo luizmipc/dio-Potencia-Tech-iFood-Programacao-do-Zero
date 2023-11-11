@@ -32,7 +32,7 @@ const niveisTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ou
 ```js
 let heroi = new Heroi("Luiz Marcelo", 10001);
 ```
-4. Utilizei um laço de iteração for para determinar o nível do herói com base nas condições definidas. Dentro desse laço, uma estrutura _if_ verifica em qual intervalo de experiência o herói se encaixa e print o nível correspondente. Este método permite uma verificação abrangente e eficiente do nível do herói. Dessa forma, evita-se uma estrutura de decisão _if-else if_ ou ou _switch case_. 
+4. Utilizei um laço de iteração for para determinar o nível do herói com base nas condições definidas. Dentro desse laço, uma estrutura _if_ verifica em qual intervalo de experiência o herói se encaixa e print o nível correspondente. Este método permite uma verificação abrangente e eficiente do nível do herói. Dessa forma, evita-se uma estrutura de decisão _if-else if_ ou _switch case_. 
 ```js
 if (heroi.experiencia <= nivelValor[nivelValor.length-1]) {
     console.log(`O herói de nome ${heroi.nome} está no nível de ${nivelTexto[nivelTexto.length-1]}.`);
