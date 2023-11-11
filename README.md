@@ -32,7 +32,7 @@ const niveisTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ou
 ```js
 let heroi = new Heroi("Luiz Marcelo", 10001);
 ```
-4. Utilizei uma estrutura de decisão para determinar, separadamente, o nível Ferro dos demais, uma vez que a condição do laço de repetição for não abrange o nível Ferro.
+4. Utilizei uma estrutura de decisão para determinar, separadamente, o nível Ferro e os demais, uma vez que a condição do laço de repetição for não abrange o nível Ferro.
 ```js
 if (heroi.experiencia <= nivelValor[nivelValor.length-1]) {
     console.log(`O herói de nome ${heroi.nome} está no nível de ${nivelTexto[nivelTexto.length-1]}.`);
