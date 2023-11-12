@@ -17,7 +17,7 @@ Formato de Saída: "O Herói de nome **{nome}** está no nível de **{nivel}**"
 1. Defini uma classe que encapsula-se dois estados do herói nome e experiência.
 ```js
 class Heroi {
-    constructor(nome, experiencia, nivel) {
+    constructor ( nome, experiencia ) {
         this.nome=nome;
         this.experiencia=experiencia;
     }
@@ -30,16 +30,16 @@ const niveisTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ou
 ```
 3. Declarei e inicializei uma instância da classe 'Heroi' com o nome 'Luiz Marcelo' e experiência 10001.
 ```js
-let heroi = new Heroi("Luiz Marcelo", 10001);
+let heroi = new Heroi( "Luiz Marcelo", 1001 );
 ```
 4. Utilizei uma estrutura de decisão para determinar, separadamente, o nível Ferro e os demais, uma vez que a condição do laço de repetição for não abrange o nível Ferro.
 ```js
-if (heroi.experiencia <= nivelValor[nivelValor.length-1]) {
+if ( heroi.experiencia <= nivelValor[nivelValor.length-1 ]) {
     console.log(`O herói de nome ${heroi.nome} está no nível de ${nivelTexto[nivelTexto.length-1]}.`);
 }
 else {
-    for (let i = 0; i < nivelValor.length; ++i) {
-        if (heroi.experiencia > nivelValor[i]) {
+    for ( let i = 0; i < nivelValor.length; ++i ) {
+        if ( heroi.experiencia > nivelValor[i] ) {
             console.log(`O herói de nome ${heroi.nome} está no nível de ${nivelTexto[i]}.`);
             break;
         }
@@ -48,8 +48,8 @@ else {
 ```
 5. Utilizei um laço de iteração _for_ para determinar o nível do herói com base nas condições definidas. Dentro desse laço, uma estrutura _if_ verifica em qual intervalo de experiência o herói se encaixa e print o nível correspondente. Este método permite uma verificação abrangente e eficiente do nível do herói. Dessa forma, evita-se uma estrutura de decisão _if-else if_ ou _switch case_. 
 ```js
-for (let i = 0; i < nivelValor.length; ++i) {
-    if (heroi.experiencia > nivelValor[i]) {
+for ( let i = 0; i < nivelValor.length; ++i ) {
+    if ( heroi.experiencia > nivelValor[i] ) {
         console.log(`O herói de nome ${heroi.nome} está no nível de ${nivelTexto[i]}.`);
         break;
     }
