@@ -23,8 +23,8 @@ class Heroi {
 ```
 2. Declarei a inicializei dois vetores que armazenassem, respectivamente, os limites dos intervalos de experiência entre cada nível e os nomes dos níveis.
 ```js
-const niveisValor = [10000, 9000, 8000, 7000, 6000, 5000, 2000, 1000];
-const niveisTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ouro-prata", "Prata", "Bronze", "Ferro"];
+const nivelValor = [10000, 9000, 8000, 7000, 5000, 2000, 1000];
+const nivelTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Prata", "Bronze", "Ferro"];
 ```
 3. Declarei e inicializei uma instância da classe 'Heroi' com o nome 'Luiz Marcelo' e experiência 10001.
 ```js
