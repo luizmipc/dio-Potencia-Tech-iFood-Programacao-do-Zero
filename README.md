@@ -1,5 +1,5 @@
 # Desafios de Projeto - Potência Tech iFood - Programação do Zero
-Nesse repositório estão as soluções dos desafios e projetos que fiz durante o bootcamp "Potencia Tech iFood - Programação do Zero" oferecido pela plataforma de ensino [DIO.me](https://www.dio.me).
+Nesse repositório estão as soluções dos desafios e projetos [que fiz](https://www.dio.me/users/luizmipc) durante o bootcamp "Potencia Tech iFood - Programação do Zero" oferecido pela plataforma de ensino [DIO.me](https://www.dio.me).
 ## 1-DESAFIO-CLASSIFICADOR DE NÍVEL DE HERÓI
 ### Instrução
 Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:<br>
