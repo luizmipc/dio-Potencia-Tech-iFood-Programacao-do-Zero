@@ -5,8 +5,8 @@ class Heroi {
     }
 }
 
-const nivelValor = [10000, 9000, 8000, 7000, 6000, 5000, 2000, 1000];
-const nivelTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Ouro-prata", "Prata", "Bronze", "Ferro"];
+const nivelValor = [10000, 9000, 8000, 7000, 5000, 2000, 1000];
+const nivelTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Prata", "Bronze", "Ferro"];
 
 let heroi = new Heroi( "Luiz Marcelo", 1001 );
 
