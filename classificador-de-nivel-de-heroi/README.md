@@ -28,7 +28,7 @@ const nivelTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Pra
 ```
 3. Declarei e inicializei uma instância da classe 'Heroi' com o nome 'Luiz Marcelo' e experiência 10001.
 ```js
-let heroi = new Heroi( "Luiz Marcelo", 1001 );
+let heroi = new Heroi( "Luiz Marcelo", 10001 );
 ```
 4. Utilizei uma estrutura de decisão para determinar, separadamente, o nível Ferro e os demais, uma vez que a condição do laço de repetição for não abrange o nível Ferro.
 ```js
