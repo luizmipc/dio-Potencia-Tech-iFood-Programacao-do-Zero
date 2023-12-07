@@ -44,7 +44,7 @@ else {
     }
 }
 ```
-5. Utilizei um laço de iteração _for_ para determinar o nível do herói com base nas condições definidas. Dentro desse laço, uma estrutura _if_ verifica em qual intervalo de experiência o herói se encaixa e print o nível correspondente. Este método permite uma verificação abrangente e eficiente do nível do herói. Dessa forma, evita-se uma estrutura de decisão _if-else if_ ou _switch case_. 
+5. Utilizei um laço de iteração _for_ para determinar o nível do herói com base nas condições definidas. Dentro desse laço, uma estrutura _if_ verifica em qual intervalo de experiência o herói pertence e exibe o nível correspondente. Este método permite uma verificação abrangente e eficiente do nível do herói. Dessa forma, evita-se uma estrutura de decisão _if-else if_ ou _switch case_. 
 ```js
 for ( let i = 0; i < nivelValor.length; ++i ) {
     if ( heroi.experiencia > nivelValor[i] ) {
