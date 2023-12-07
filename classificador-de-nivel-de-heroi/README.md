@@ -12,7 +12,7 @@ Se XP for maior ou igual a 10.001 = Radiante<br>
 
 Formato de Saída: "O Herói de nome **{nome}** está no nível de **{nivel}**"
 ## Explicação
-1. Defini uma classe que encapsula-se dois atributos do herói nome e experiência.
+1. Defini uma classe que encapsula dois atributos do herói (nome e experiência).
 ```js
 class Heroi {
     constructor ( nome, experiencia ) {
