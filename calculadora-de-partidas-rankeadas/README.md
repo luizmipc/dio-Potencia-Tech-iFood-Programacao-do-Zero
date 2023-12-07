@@ -19,7 +19,7 @@ Formato de Saída: "O Herói tem de saldo de **{saldoVitorias}** está no nível
 const nivelValor = [100, 90, 80, 50, 20, 10];
 const nivelTexto = ["Imortal", "Lendario", "Diamante", "Ouro", "Prata", "Bronze", "Ferro"];
 ```
-2. Defini a função _ranking_ que exibi na tela a quantidade de vitórias - quantidade de derrotas e o nível do herói conforme o parâmetro da função (quantidade de vitórias e quantidade de derrotas).
+2. Defini a função _ranking_ que exibe na tela a quantidade de vitórias - quantidade de derrotas e o nível do herói conforme o parâmetro da função (quantidade de vitórias e quantidade de derrotas).
 ```js
 function ranking ( qv, qd ) {
     let saldoVitorias = qv - qd;
