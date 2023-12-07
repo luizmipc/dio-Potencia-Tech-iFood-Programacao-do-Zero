@@ -26,7 +26,7 @@ class Heroi {
 const nivelValor = [10000, 9000, 8000, 7000, 5000, 2000, 1000];
 const nivelTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Prata", "Bronze", "Ferro"];
 ```
-3. Declarei e inicializei uma instância da classe 'Heroi' com o nome 'Luiz Marcelo' e experiência 10001.
+3. Instanciei a classe _Heroi_ com atributos iniciais.
 ```js
 let heroi = new Heroi( "Luiz Marcelo", 10001 );
 ```
