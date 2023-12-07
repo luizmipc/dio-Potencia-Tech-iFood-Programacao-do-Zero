@@ -21,7 +21,7 @@ class Heroi {
     }
 }
 ```
-2. Declarei a inicializei dois vetores que armazenassem, respectivamente, os limites dos intervalos de experiência entre cada nível e os nomes dos níveis.
+2. Declarei e inicializei dois vetores que armazenassem, respectivamente, os limites dos intervalos de experiência entre cada nível e os nomes dos níveis.
 ```js
 const nivelValor = [10000, 9000, 8000, 7000, 5000, 2000, 1000];
 const nivelTexto = ["Radiante", "Imortal", "Ascendente", "Platina", "Ouro", "Prata", "Bronze", "Ferro"];
