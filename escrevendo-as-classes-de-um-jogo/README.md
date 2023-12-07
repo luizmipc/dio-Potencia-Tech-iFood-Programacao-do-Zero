@@ -24,7 +24,7 @@ Formato de Saída: "o {tipo} atacou usando {ataque}".
 const tipos = ["mago", "guerreiro", "monge", "ninja"];
 const ataques = ["magia", "espada", "artes marciais", "shuriken"];
 ```
-2. Defini uma classe que encapsula-se três atributos do herói (nome, idade e tipo) e um método que representa a forma de ataque do tipo de classe de herói.
+2. Defini uma classe que encapsula três atributos do herói (nome, idade e tipo) e um método que exibe a forma de ataque de tipo de herói.
 ```js
 class Heroi {
     constructor ( nome, idade, tipo ) {
