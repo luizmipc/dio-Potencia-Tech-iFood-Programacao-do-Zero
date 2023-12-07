@@ -18,3 +18,35 @@ se monge -> no ataque exibir (usou artes marciais)<br>
 se ninja -> no ataque exibir (usou shuriken)<br>
 
 Formato de Saída: "o {tipo} atacou usando {ataque}".
+## Explicação
+1. Declarei e inicializei dois vetores que armazenassem, respectivamente, os nomes das classes dos heróis e os nomes da formas de ataque das classes dos heróis.
+```js
+const tipos = ["mago", "guerreiro", "monge", "ninja"];
+const ataques = ["magia", "espada", "artes marciais", "shuriken"];
+```
+2. Define uma classe que encapsula-se três atributos do herói (nome, idade e tipo) e um método que representa a forma de ataque do tipo de classe do herói.
+```js
+class Heroi {
+    constructor ( nome, idade, tipo ) {
+        this.nome=nome;
+        this.idade=idade;
+        this.tipo=tipo;
+    }
+    atacar() {
+        for ( let i = 0; i < tipos.length; i++ ) {
+            if ( this.tipo == tipos[i] ) {
+                console.log(`O ${this.tipo} atacou usando ${ataques[i]}.`);
+                break;
+            }
+        }
+    }
+}
+```
+3. Instanciei a classe _Heroi_ com atributos iniciais.
+```js
+let heroi = new Heroi ( "Luiz Marcelo", 21, tipos[3] );
+```
+4. Apliquei o método atacar do objeto heroi.
+```js
+heroi.atacar();
+```
