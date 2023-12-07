@@ -1,15 +1,15 @@
 # 2-DESAFIO-CALCULADORA DE PARTIDAS RANKEADAS
 ## Instrução
 Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
-depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)<br>
 
-Se vitórias for menor do que 10 = Ferro
-Se vitórias for entre 11 e 20 = Bronze
-Se vitórias for entre 21 e 50 = Prata
-Se vitórias for entre 51 e 80 = Ouro
-Se vitórias for entre 81 e 90 = Diamante
-Se vitórias for entre 91 e 100= Lendário
-Se vitórias for maior ou igual a 101 = Imortal
+Se vitórias for menor do que 10 = Ferro<br>
+Se vitórias for entre 11 e 20 = Bronze<br>
+Se vitórias for entre 21 e 50 = Prata<br>
+Se vitórias for entre 51 e 80 = Ouro<br>
+Se vitórias for entre 81 e 90 = Diamante<br>
+Se vitórias for entre 91 e 100= Lendário<br>
+Se vitórias for maior ou igual a 101 = Imortal<br>
 
 Formato de Saída: "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
 
@@ -39,7 +39,7 @@ function ranking ( qv, qd ) {
 ```
 3. Declarei e inicializei duas variáveis, uma para a quantidade de vitórias e a outra para a quantidade de derrotas.
 ```js
-let q1 = 150; // quantidade vitorias
+let q1 = 150; // quantidade vitórias
 let q2 = 40; // quantidade derrotas
 ```
 4. Aplicação da função _ranking_ com dois argumentos: q1 (para a quantidade de vitórias) e q2 (para a quantidade de derrotas).
