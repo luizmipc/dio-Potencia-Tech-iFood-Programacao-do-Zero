@@ -19,12 +19,12 @@ se ninja -> no ataque exibir (usou shuriken)<br>
 
 Formato de Saída: "o {tipo} atacou usando {ataque}".
 ## Explicação
-1. Declarei e inicializei dois vetores que armazenassem, respectivamente, os nomes das classes dos heróis e os nomes da formas de ataque das classes dos heróis.
+1. Declarei e inicializei dois vetores que armazenassem, respectivamente, os nomes das classes de herói e os nomes das formas de ataque das classes de herói.
 ```js
 const tipos = ["mago", "guerreiro", "monge", "ninja"];
 const ataques = ["magia", "espada", "artes marciais", "shuriken"];
 ```
-2. Define uma classe que encapsula-se três atributos do herói (nome, idade e tipo) e um método que representa a forma de ataque do tipo de classe do herói.
+2. Defini uma classe que encapsula-se três atributos do herói (nome, idade e tipo) e um método que representa a forma de ataque do tipo de classe de herói.
 ```js
 class Heroi {
     constructor ( nome, idade, tipo ) {
