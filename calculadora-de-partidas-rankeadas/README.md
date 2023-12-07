@@ -42,7 +42,7 @@ function ranking ( qv, qd ) {
 let q1 = 150; // quantidade vitórias
 let q2 = 40; // quantidade derrotas
 ```
-4. Aplicação da função _ranking_ com dois argumentos: q1 (para a quantidade de vitórias) e q2 (para a quantidade de derrotas).
+4. Apliquei da função _ranking_ com dois argumentos: q1 (para a quantidade de vitórias) e q2 (para a quantidade de derrotas).
 ```js
 ranking ( q1, q2 );
 ```
