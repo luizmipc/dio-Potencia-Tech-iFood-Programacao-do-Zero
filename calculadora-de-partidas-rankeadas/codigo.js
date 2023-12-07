@@ -17,6 +17,6 @@ function ranking ( qv, qd ) {
     }
 }
 // Caso de exemplo
-let q1 = 150; // quantidade vitorias
+let q1 = 150; // quantidade vitórias
 let q2 = 40; // quantidade derrotas
 ranking ( q1, q2 );
